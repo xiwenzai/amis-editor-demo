@@ -9,6 +9,8 @@ import {IMainStore} from '../store';
 import '../editor/DisabledEditorPlugin'; // 用于隐藏一些不需要的Editor预置组件
 import '../renderer/MyRenderer';
 import '../editor/MyRenderer';
+import '../tpl/index';
+import '../renderer/APIControl';
 
 let currentIndex = -1;
 
